@@ -26,34 +26,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/search_animal_btn"
-        android:id="@+id/button"
+        android:id="@+id/search_animal_btn"
         android:textColor="#ffffff"
         android:background="@mipmap/dpm"
         android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:layout_marginTop="99dp" />
+        android:layout_alignLeft="@+id/search_plant_btn"
+        android:layout_alignStart="@+id/search_plant_btn"
+        android:layout_marginTop="99dp"
+        android:onClick="onSearchAnimalClick"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/search_plant_btn"
-        android:id="@+id/button2"
+        android:id="@+id/search_plant_btn"
         android:textColor="#ffffff"
         android:background="@mipmap/dpm"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onSearchPlantClick"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/upload_picture_btn"
-        android:id="@+id/button3"
+        android:id="@+id/upload_picture_btn"
         android:textColor="#ffffff"
         android:background="@mipmap/dpm"
-        android:layout_below="@+id/button2"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:layout_marginTop="58dp" />
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/search_plant_btn"
+        android:layout_alignLeft="@+id/search_plant_btn"
+        android:layout_alignStart="@+id/search_plant_btn"
+        android:onClick="onUploadPictureClick"/>
 
 </RelativeLayout>
