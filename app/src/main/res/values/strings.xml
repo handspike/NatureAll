@@ -6,7 +6,11 @@
     <string name="search_animal_btn">Look for a fucking animal</string>
     <string name="search_plant_btn">Look for a fucking plant</string>
     <string name="upload_picture_btn">Upload a fucking picture</string>
+    <string name="return_btn">Return to Main Screen</string>
+    <string name="closeimageview">closeImageView</string>
+    <string name="callin_activity_message">The calling activity was</string>
+    <string name="galleryimageview">galleryImageView</string>
+    <string name="cameraimageview">cameraImageView</string>
 
 
-    start_question
 </resources>
