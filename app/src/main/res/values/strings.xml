@@ -11,6 +11,7 @@
     <string name="callin_activity_message">The calling activity was</string>
     <string name="galleryimageview">galleryImageView</string>
     <string name="cameraimageview">cameraImageView</string>
+    <string name="upload_picture_image_view">upload_picture_image_view</string>
 
 
 </resources>
